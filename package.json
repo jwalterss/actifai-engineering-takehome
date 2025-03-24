@@ -5,10 +5,16 @@
   "author": "Actifai Engineering",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "dependencies": {
     "express": "4.16.1",
     "pg": "8.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "pgmock2": "^2.1.7",
+    "supertest": "^7.1.0"
   }
 }
